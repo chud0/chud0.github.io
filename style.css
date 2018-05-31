@@ -2,12 +2,65 @@
 body {
     background-color:   #f8f8f8;
 }
+
+h2 {
+    background-color: #eaeaea;
+}
 .menu {
     font-size: 20px;
+    background-color: #ee7700;
 }
 .menu ul {
     list-style-type: none;
+    width: 200px;
 }
+
 .menu A:link {
     text-decoration: none;
+}
+
+.menu a {
+    color: #222222;
+    font-weight: 600;
+}
+
+.menu li:hover {background-color: #aa9999;}
+
+.description h3 {
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.description #brief {
+    color: #707070;
+    font-size: 14px;
+    font-size: italic;
+    line-height: 16px;
+}
+.description ul li {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.description table{
+    width: 25%;
+}
+
+.description tr {
+    height: 30px;
+    vertical-align: bottom;
+}
+.description tr:hover {background-color: #d5d1ca;}
+
+.description img {
+    border: 1px solid black;
+}
+
+.footer {
+    background-color: #bb7744;
+    height: 100px;
 }

@@ -64,3 +64,25 @@ h2 {
     background-color: #bb7744;
     height: 100px;
 }
+
+#current {
+    color: #555555;
+}
+
+input[type="text"], input[type="email"] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 75%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}

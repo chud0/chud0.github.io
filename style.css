@@ -6,25 +6,25 @@ body {
 h2 {
     background-color: #eaeaea;
 }
-.menu {
+.header {
     font-size: 20px;
     background-color: #ee7700;
 }
-.menu ul {
+.header ul {
     list-style-type: none;
     width: 200px;
 }
 
-.menu A:link {
+.header a:link {
     text-decoration: none;
 }
 
-.menu a {
+.header a {
     color: #222222;
     font-weight: 600;
 }
 
-.menu li:hover {background-color: #aa9999;}
+.header li:hover {background-color: #aa9999;}
 
 .description h3 {
     font-size: 18px;

@@ -21,7 +21,10 @@
             <h2>Напишите нам <small>(форма пока не работает)</small></h2>
             <form action="#">
                 Имя <br> <input type="text" placeholder="Ваше имя"><br>
-                Email <br> <input type="email" placeholder="email"><br>
+                Телефон <br> <input type="tel" placeholder="+78888888888"
+                    oninvalid="this.setCustomValidity('Номер должен начинаться с + и иметь 11 цифр')"
+                    required pattern="\+[0-9]{11}"><br>
+                Email <br> <input type="email" placeholder="email" required><br>
                 Тема <br> <input type="text" placeholder="Тема сообщения"><br>
                 Сообщение <br>
 	              <textarea></textarea><br>

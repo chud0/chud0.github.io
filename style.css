@@ -1,100 +1,32 @@
-
-body {
-    background-color:   #f8f8f8;
-}
-
-h2 {
-    background-color: #eaeaea;
-}
 .header {
-    font-size: 20px;
-    background-color: #ee7700;
-}
-.header ul {
-    list-style-type: none;
-    width: 200px;
+  height: 100px;
+	display: flex;
+	justify-content: space-between;
 }
 
-.header a:link {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-.header a {
-    color: #222222;
-    font-weight: 600;
+li a:hover {
+    background-color: #111;
 }
-
-.header li:hover {background-color: #aa9999;}
-
-.description h3 {
-    font-size: 18px;
-    color: black;
-    font-weight: 400;
-    background-color: #eaeaea;
-}
-
-.description #brief {
-    color: #707070;
-    font-size: 14px;
-    font-size: italic;
-    line-height: 16px;
-}
-.description ul li {
-    color: #484343;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-}
-.description table{
-    width: 25%;
-}
-
-.description tr {
-    height: 30px;
-    vertical-align: bottom;
-}
-.description tr:hover {background-color: #d5d1ca;}
-
-.description img {
-    border: 1px solid black;
-}
-
-.footer {
-    background-color: #bb7744;
-    height: 100px;
-}
-
-#current {
-    color: #555555;
-}
-
-input[type="text"], input[type="email"], input[type="tel"] {
-    width: 75%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-}
-
-input[type="text"][placeholder="Ваше имя"] {
-    text-transform: capitalize;
-}
-
-input[type="email"]:empty {
-    /* background-color: red; */
-}
-
-textarea {
-    width: 75%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
-}
-
-textarea:first-letter {
-    text-transform: capitalize;
+.menu {
+  widows: 100%;
 }
